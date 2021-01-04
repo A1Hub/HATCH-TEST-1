@@ -1,0 +1,1372 @@
+.mediaViewInfo {
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Home;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Home {
+	position: absolute;
+	width: 1920px;
+	height: 3956px;
+	background-color: rgba(0,0,0,1);
+	overflow: hidden;
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#BG {
+	opacity: 0.75;
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#dot_action_slide_show {
+	position: absolute;
+	width: 92px;
+	height: 2px;
+	left: 913px;
+	top: 1015px;
+	overflow: visible;
+	cursor: pointer;
+}
+#Rectangle_light_out_dot {
+	fill: rgba(204,204,204,1);
+}
+.Rectangle_light_out_dot {
+	overflow: visible;
+	position: absolute;
+	width: 24px;
+	height: 2px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_faded_dot {
+	opacity: 0.3;
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_faded_dot {
+	overflow: visible;
+	position: absolute;
+	width: 24.006px;
+	height: 2px;
+	left: 34px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_faded_dot_y {
+	opacity: 0.3;
+	fill: rgba(204,204,204,1);
+}
+.Rectangle_faded_dot_y {
+	overflow: visible;
+	position: absolute;
+	width: 24px;
+	height: 2px;
+	left: 68px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#slides_buttons {
+	position: absolute;
+	width: 53.606px;
+	height: 71.136px;
+	left: 1746.223px;
+	top: 932.5px;
+	overflow: visible;
+	--web-animation: fadein 0.6s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Home_2.html;
+	cursor: pointer;
+}
+#right {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.right {
+	overflow: visible;
+	position: absolute;
+	width: 17.009px;
+	height: 31.898px;
+	left: 38.188px;
+	top: 24.605px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#mid {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.mid {
+	overflow: visible;
+	position: absolute;
+	width: 39.068px;
+	height: 71.609px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#social_media_icons {
+	position: absolute;
+	width: 33.125px;
+	height: 237.843px;
+	left: 1766.875px;
+	top: 424.157px;
+	overflow: visible;
+}
+#TW {
+	fill: rgba(255,255,255,1);
+}
+.TW {
+	overflow: visible;
+	position: absolute;
+	width: 33.125px;
+	height: 26.92px;
+	left: 0px;
+	top: 111.263px;
+	transform: matrix(1,0,0,1,0,0);
+	cursor: pointer;
+}
+#YT {
+	fill: rgba(255,255,255,1);
+}
+.YT {
+	overflow: visible;
+	position: absolute;
+	width: 33.123px;
+	height: 21.774px;
+	left: 0px;
+	top: 216.069px;
+	transform: matrix(1,0,0,1,0,0);
+	cursor: pointer;
+}
+#FontAwsome_instagram {
+	fill: rgba(255,255,255,1);
+}
+.FontAwsome_instagram {
+	overflow: visible;
+	position: absolute;
+	width: 33px;
+	height: 32.993px;
+	left: 0.125px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+	cursor: pointer;
+}
+#tittle {
+	position: absolute;
+	width: 267px;
+	height: 56px;
+	left: 120px;
+	top: 512px;
+	overflow: visible;
+}
+#HATCH_It___ {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 268px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 46px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+#brand_ {
+	position: absolute;
+	width: 135px;
+	height: 133px;
+	left: 120px;
+	top: 34px;
+	overflow: visible;
+	cursor: pointer;
+}
+#Hatch {
+	position: absolute;
+	width: 135px;
+	height: 133px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#hamburger_menu {
+	position: absolute;
+	width: 17px;
+	height: 14px;
+	left: 1763px;
+	top: 65px;
+	overflow: visible;
+	cursor: pointer;
+}
+#Path_6 {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_6 {
+	overflow: visible;
+	position: absolute;
+	width: 11.192px;
+	height: 3px;
+	left: 8.808px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 3px;
+	left: 4px;
+	top: 7px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_3 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 3px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3 {
+	overflow: visible;
+	position: absolute;
+	width: 20px;
+	height: 3px;
+	left: 0px;
+	top: 14px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Search-icon {
+	position: absolute;
+	width: 12px;
+	height: 17.129px;
+	left: 1699px;
+	top: 65px;
+	overflow: visible;
+}
+#line {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.line {
+	position: absolute;
+	overflow: visible;
+	width: 15px;
+	height: 15px;
+	left: 0px;
+	top: 0px;
+}
+#circle {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.circle {
+	overflow: visible;
+	position: absolute;
+	width: 4.227px;
+	height: 5.872px;
+	left: 0.115px;
+	top: 12px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Search_hover {
+	position: absolute;
+	width: 329px;
+	height: 18.5px;
+	left: 1412px;
+	top: 62px;
+	overflow: visible;
+	opacity: 0;
+	transition:all 1.0s ease;
+	cursor: pointer;
+}
+
+
+#Search_hover:hover{
+	opacity: 1;
+}
+
+
+#SEARCH {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 10px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 5px;
+}
+#Line_6 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_6 {
+	overflow: visible;
+	position: absolute;
+	width: 268px;
+	height: 1px;
+	left: 0.5px;
+	top: 18.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_7 {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Path_7 {
+	overflow: visible;
+	position: absolute;
+	width: 17.061px;
+	height: 17.061px;
+	left: 313px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_5 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_5 {
+	overflow: visible;
+	position: absolute;
+	width: 17.061px;
+	height: 17.061px;
+	left: 313px;
+	top: 2px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_slogan_BG {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 1080px;
+	overflow: visible;
+}
+#article-slogan {
+	position: absolute;
+	width: 960px;
+	height: 1080px;
+	left: 0px;
+	top: 1080px;
+	overflow: visible;
+	opacity: 0;
+	transition:all 1.0s ease;
+}
+
+#article-slogan:hover {
+	opacity: 1;
+}
+
+.hover_slogan {
+	position: absolute;
+	overflow: visible;
+	width: 960px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#Hatch_ {
+	left: 75.417px;
+	top: 284px;
+	position: absolute;
+	overflow: visible;
+	width: 342px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 83px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.7px;
+	text-transform: uppercase;
+}
+#Tell_Me_More_About_HATCH {
+	left: 143.729px;
+	top: 650px;
+	position: absolute;
+	overflow: visible;
+	width: 177px;
+	white-space: nowrap;
+	line-height: 59px;
+	margin-top: -23px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.57px;
+}
+#Line_arrow {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_arrow {
+	overflow: visible;
+	position: absolute;
+	width: 42.487px;
+	height: 1px;
+	left: 75px;
+	top: 659.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#ARROW_GROUP {
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	left: 481.823px;
+	top: 622px;
+	overflow: visible;
+	cursor: pointer;
+}
+#Rectangle_ARROW {
+	fill: rgba(17,17,16,1);
+}
+.Rectangle_ARROW {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 75px;
+	left: 0px;
+	top: 0px;
+}
+#right-arrow {
+	fill: rgba(255,255,255,1);
+}
+.right-arrow {
+	overflow: visible;
+	position: absolute;
+	width: 21.496px;
+	height: 18.143px;
+	left: 27.019px;
+	top: 28px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Lorem_ipsum_dolor_sit_amet_con {
+	left: 75.416px;
+	top: 411px;
+	position: absolute;
+	overflow: visible;
+	width: 811.584px;
+	height: 185px;
+	line-height: 30px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(212,212,212,1);
+	letter-spacing: 0.5px;
+}
+#ARC_Component {
+	position: absolute;
+	width: 640px;
+	height: 719.333px;
+	left: 1px;
+	top: 2159px;
+	overflow: visible;
+	cursor: pointer;
+}
+#image {
+	opacity: 0.81;
+	position: absolute;
+	width: 640px;
+	height: 719.333px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#ARC_hover {
+	position: absolute;
+	width: 640px;
+	height: 719.333px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	opacity: 0;
+	transition:all 1.0s ease;
+}
+#fade {
+	opacity: 0;
+	transition:all 1.0s ease;
+	fill: rgba(0,0,0,0.839);
+}
+.fade {
+	overflow: visible;
+	position: absolute;
+	width: 640px;
+	height: 719.333px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+	
+}
+
+
+
+
+#ARC_hover:hover  {
+	opacity: 1;
+}
+#fade:hover  {
+	opacity: 1;
+}
+
+#ARCHITECTURE {
+	left: 179px;
+	top: 335px;
+	position: absolute;
+	overflow: visible;
+	width: 283px;
+	white-space: nowrap;
+	line-height: 90px;
+	margin-top: -25px;
+	text-align: center;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#interior_Component_ {
+	position: absolute;
+	width: 640px;
+	height: 718.503px;
+	left: 1280px;
+	top: 2160px;
+	overflow: visible;
+	cursor: pointer;
+}
+#img {
+	position: absolute;
+	width: 638px;
+	height: 717.503px;
+	left: 1px;
+	top: 0px;
+	overflow: visible;
+}
+#INT_hover {
+	position: absolute;
+	width: 640px;
+	height: 718.503px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	opacity: 0;
+	transition:all 1.0s ease;
+}
+#fade_b {
+	opacity: 0;
+	transition:all 1.0s ease;
+	fill: rgba(0,0,0,0.812);
+}
+
+
+
+#INT_hover:hover  {
+	opacity: 1;
+}
+#fade_b:hover  {
+	opacity: 1;
+}
+
+
+
+
+.fade_b {
+	position: absolute;
+	overflow: visible;
+	width: 640px;
+	height: 718.503px;
+	left: 0px;
+	top: 0px;
+}
+#INTERIOR_DESIGN {
+	left: 158px;
+	top: 335px;
+	position: absolute;
+	overflow: visible;
+	width: 325px;
+	white-space: nowrap;
+	line-height: 90px;
+	margin-top: -25px;
+	text-align: center;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+}
+#_products_Component {
+	position: absolute;
+	width: 640px;
+	height: 718.503px;
+	left: 640px;
+	top: 2160px;
+	overflow: visible;
+	cursor: pointer;
+}
+#img_b {
+	position: absolute;
+	width: 638px;
+	height: 717.503px;
+	left: 1px;
+	top: 0px;
+	overflow: visible;
+}
+#pro_hover {
+	position: absolute;
+	width: 640px;
+	height: 718.503px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	opacity: 0;
+	transition:all 1.0s ease;
+}
+#fade_ca {
+	opacity: 0;
+	transition:all 1.0s ease;
+	fill: rgba(0,0,0,0.812);
+}
+
+
+
+#pro_hover:hover  {
+	opacity: 1;
+}
+#fade_ca:hover  {
+	opacity: 1;
+}
+
+
+.fade_ca {
+	position: absolute;
+	overflow: visible;
+	width: 640px;
+	height: 718.503px;
+	left: 0px;
+	top: 0px;
+}
+#Products {
+	left: 217px;
+	top: 335px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	line-height: 90px;
+	margin-top: -25px;
+	text-align: center;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+#slogan_ft_bg {
+	position: absolute;
+	width: 1921px;
+	height: 725px;
+	left: -1px;
+	top: 2878px;
+	overflow: visible;
+}
+#artical_slogan_2 {
+	position: absolute;
+	width: 960px;
+	height: 727px;
+	left: 960px;
+	top: 2878px;
+	overflow: visible;
+	opacity: 0;
+	transition:all 1.0s ease;
+}
+
+#artical_slogan_2:hover {
+opacity: 1;
+
+}
+#Rectangle_hover_ft_slogan {
+	opacity: 0.93;
+	fill: rgba(0,0,0,1);
+}
+.Rectangle_hover_ft_slogan {
+	position: absolute;
+	overflow: visible;
+	width: 960px;
+	height: 727px;
+	left: 0px;
+	top: 0px;
+}
+#Contact_Us {
+	left: 233px;
+	top: 417px;
+	position: absolute;
+	overflow: visible;
+	width: 93px;
+	white-space: nowrap;
+	line-height: 73px;
+	margin-top: -28.5px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 16px;
+	color: rgba(208,206,210,1);
+	letter-spacing: 0.57px;
+}
+#Line_arrow_cf {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_arrow_cf {
+	overflow: visible;
+	position: absolute;
+	width: 51px;
+	height: 1px;
+	left: 150.5px;
+	top: 426.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#IN_A_CITY_FILLED_WITH_SO_MANY_ {
+	left: 151px;
+	top: 295px;
+	position: absolute;
+	overflow: visible;
+	width: 659px;
+	height: 69px;
+	line-height: 32px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 2px;
+}
+#ARROW_GROUP_ch {
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	left: 564.823px;
+	top: 392px;
+	overflow: visible;
+	cursor: pointer;
+}
+#Rectangle_ARROW_ci {
+	fill: rgba(17,17,16,1);
+}
+.Rectangle_ARROW_ci {
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	height: 75px;
+	left: 0px;
+	top: 0px;
+}
+#right-arrow_cj {
+	fill: rgba(255,255,255,1);
+}
+.right-arrow_cj {
+	overflow: visible;
+	position: absolute;
+	width: 21.496px;
+	height: 18.143px;
+	left: 27.019px;
+	top: 28px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#footer_group {
+	position: absolute;
+	width: 1920px;
+	height: 351px;
+	left: 0px;
+	top: 3605px;
+	overflow: visible;
+}
+#footer {
+	position: absolute;
+	width: 1571px;
+	height: 173px;
+	left: 179px;
+	top: 88px;
+	overflow: visible;
+}
+#popular {
+	position: absolute;
+	width: 284px;
+	height: 91px;
+	left: 578px;
+	top: 42px;
+	overflow: visible;
+}
+#how_would_you_describe_hatch_A {
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 252px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(125,125,125,1);
+	text-transform: capitalize;
+}
+#WHat_are_the_characters_of_hat {
+	left: 0px;
+	top: 53px;
+	position: absolute;
+	overflow: visible;
+	width: 285px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -8.5px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(125,125,125,1);
+	text-transform: capitalize;
+}
+#whats_dose_hatch_architects_st {
+	left: 0px;
+	top: 76px;
+	position: absolute;
+	overflow: visible;
+	width: 251px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -8.5px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(125,125,125,1);
+	text-transform: capitalize;
+}
+#Popular_Searches {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+#latest {
+	position: absolute;
+	width: 147px;
+	height: 91px;
+	left: 1077px;
+	top: 42px;
+	overflow: visible;
+}
+#exceptional_projetcs {
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(125,125,125,1);
+	text-transform: capitalize;
+}
+#Featured_projects {
+	left: 0px;
+	top: 53px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -8.5px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(125,125,125,1);
+	text-transform: capitalize;
+}
+#RECENTly_added_projects {
+	left: 0px;
+	top: 76px;
+	position: absolute;
+	overflow: visible;
+	width: 148px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -8.5px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(125,125,125,1);
+	text-transform: capitalize;
+}
+#LATEST_POSTS {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 129px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+#about_hatch {
+	position: absolute;
+	width: 130px;
+	height: 91px;
+	left: 1441px;
+	top: 42px;
+	overflow: visible;
+}
+#about_us {
+	left: 0px;
+	top: 30px;
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(125,125,125,1);
+	text-transform: capitalize;
+}
+#Lorem_ipsum {
+	left: 0px;
+	top: 53px;
+	position: absolute;
+	overflow: visible;
+	width: 77px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(125,125,125,1);
+	text-transform: capitalize;
+}
+#Loreim_ipsiom {
+	left: 0px;
+	top: 76px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(125,125,125,1);
+	text-transform: capitalize;
+}
+#About_HATCH_c {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+#contact_destils {
+	position: absolute;
+	width: 146px;
+	height: 86px;
+	left: 264px;
+	top: 42px;
+	overflow: visible;
+}
+#infohatchcomsa {
+	left: 28px;
+	top: 40px;
+	position: absolute;
+	overflow: visible;
+	width: 119px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(125,125,125,1);
+	text-transform: capitalize;
+}
+#ID966-556096364 {
+	left: 28px;
+	top: 71px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -6px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 13px;
+	color: rgba(125,125,125,1);
+	text-transform: capitalize;
+}
+#telephone {
+	fill: rgba(255,255,255,1);
+}
+.telephone {
+	overflow: visible;
+	position: absolute;
+	width: 16.001px;
+	height: 16.001px;
+	left: 0px;
+	top: 70px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#send_icon {
+	fill: rgba(255,255,255,1);
+}
+.send_icon {
+	overflow: visible;
+	position: absolute;
+	width: 16.001px;
+	height: 16.001px;
+	left: 0px;
+	top: 39.882px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Contact {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 90px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -3.5px;
+	text-align: left;
+	font-family: Gilroy;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+}
+#logo {
+	position: absolute;
+	width: 125px;
+	height: 173px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#S_M_icons {
+	position: absolute;
+	width: 119.875px;
+	height: 16px;
+	left: 2px;
+	top: 157px;
+	overflow: visible;
+}
+#TW_c {
+	fill: rgba(255,255,255,1);
+}
+.TW_c {
+	overflow: visible;
+	position: absolute;
+	width: 17.632px;
+	height: 15.428px;
+	left: 52.308px;
+	top: 0.291px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#instagram {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#YT_db {
+	fill: rgba(255,255,255,1);
+}
+.YT_db {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 10.518px;
+	left: 103.875px;
+	top: 3.227px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Hatch_dc {
+	position: absolute;
+	width: 125px;
+	height: 125px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#BG_footer {
+	fill: transparent;
+}
+.BG_footer {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 351px;
+	left: 0px;
+	top: 0px;
+}
+
+
+
+
+
+
+
+#reveal1 {
+	opacity: 0;
+	-webkit-transform: scale(0.9);
+		 -moz-transform: scale(0.9);
+			-ms-transform: scale(0.9);
+			 -o-transform: scale(0.9);
+					transform: scale(0.9);
+	-webkit-transition: all 1s ease-in-out;
+		 -moz-transition: all 1s ease-in-out;
+			-ms-transition: all 1s ease-in-out;
+			 -o-transition: all 1s ease-in-out;
+					transition: all 1s ease-in-out;
+}
+#reveal1.visible {
+	opacity: 1;
+	-webkit-transform: none;
+		 -moz-transform: none;
+			-ms-transform: none;
+			 -o-transform: none;
+					transform: none;
+}
+
+
+
+
+
+
+
+
+
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+.mySlides{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1920px;
+  max-height: 1080px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+	height: 3px;
+	width: 20px;
+	margin: 0 4px;
+	background-color: #bbb;
+   cursor: pointer;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+ }
+ 
+ .active {
+	background-color: #717171;
+ }
+ 
+ /* Fading animation */
+ .fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+ }
+ 
+ @-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+ }
+ 
+ @keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+ }
+ 
+ /* On smaller screens, decrease text size */
+ @media only screen and (max-width: 300px) {
+	.text {font-size: 11px}
+ }
